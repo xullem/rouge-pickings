@@ -1,0 +1,129 @@
+/*****BASE STYLES*****/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+span{
+  color: #77a466;
+}
+
+/*****GRID*****/
+.full-width {
+  clear: both;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+#specials, #reviews, #contact{
+  height: 210px;
+}
+/*****HEADER*****/
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+nav{
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #77a466;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 23px;
+  padding-right: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+img {
+  border-bottom: 3px solid #77a466;
+  border-top: 3px solid #77a466;
+
+}
+
+/*****ABOUT*****/
+#about h2 {
+  color: #77a466;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+#about p{
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+/*****INFO*****/
+#specials, #contact {
+  border-bottom: 1px solid #dedbdc;
+  border-top: 1px solid #dedbdc;
+}
+
+#reviews {
+  border: 1px solid #dedbdc;
+}
+
+#specials #reviews #contact h3{
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+#reviews, #contact {
+    padding-left: 15px;
+}
+
+#specials {
+  padding-left: 15px;
+}
+
+#specials p {
+  color: #77a466;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+#reviews #contact p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 21px;
+}
+
+/*****FOOTER*****/
+#content h2 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 23px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 34px;
+  padding-top: 34px;
+}
+
+#content span {
+  font-family: 'Oleo Script', cursive;
+  font-weight: lighter;
+  text-transform: lowercase;
+}
